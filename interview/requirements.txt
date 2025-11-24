@@ -1,0 +1,24 @@
+# LangChain and LLM
+langchain>=0.1.13
+langchain-groq
+python-dotenv
+
+# Whisper ASR (works on CPU)
+openai-whisper
+
+# PyTorch (CPU version only)
+torch
+torchaudio
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+
+# Text-to-Speech
+edge-tts
+pygame
+
+# Audio input/output
+SpeechRecognition
+pyaudio
+
+# General
+tqdm
+requests
